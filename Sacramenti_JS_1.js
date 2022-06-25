@@ -1,5 +1,5 @@
 // 1. Создать переменную “item_1”
-let item_1; // const чтобы переменная не менялась
+let item_1; // const чтобы переменная не менялась ИЛИ var(устаревший вариант)
 //  2. Присвоить переменной item_1 цифру 5
 item_1 = 5;
 //  3. Вывести в консоль item_1
@@ -55,16 +55,17 @@ let age_2 = 18;
 //  28. Создать переменную “age_3” и присвоить ей значение 60
 let age_3 = 60;
 //  29. Создать if в котором будите проверять значение переменной age_1
-if (age_1 < age_2){
+if (age_1 == 10){
+    console.log("You're too young!")}
 //  30. Если age_1 < age_2, вывести в консоль “You don’t have access cause your age is ” + age_1 + “ It’s less then ”
+if (age_1 < age_2){
     console.log(`You don't have access cause your age is ${age_1} It's less then ${age_2}`)}
 //  31. Если age_1 >= age_2 и age_1 < age_3, вывести в консоль “Welcome!”
-else if (age_1 >= age_2 && age_1 < age_3){
+if (age_1 >= age_2 && age_1 < age_3){
     console.log("Welcome!")}
 //  32. Если age_1 > age_3, вывести в консоль “Keep calm and look Culture channel”
-    else if (age_1 > age_3){
+if (age_1 > age_3){
     console.log("Keep calm and look Culture channel")}
 //  33. Иначе выводите “Technical work”
-    else {
+else {
     console.log("Technical work")} 
-console.log(typeof item_7)         
